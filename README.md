@@ -38,7 +38,7 @@ You can view or download my latest resume here:
 ---
 
 ## 🌍 Connect With Me
-- 📧 Email: your.email@ufl.edu  
+- 📧 Email: christopwilliam1@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/your-handle)  
 - 💻 [GitHub](https://github.com/cdubUF)  
 
