@@ -7,10 +7,10 @@ I like building fast, clean software and documenting the journey. Current focus:
 ---
 
 ### 🔭 Highlights
-- **HarmonyHub** — dynamic playlist compatibility (React + Flask) → [Repo](https://github.com/youruser/HarmonyHub)
-- **ProfQuest** — UF CS professor finder (MERN) → [Repo](https://github.com/youruser/ProfQuest)
-- **GatorAVLTree** — C++ AVL tree with visualizations → [Repo](https://github.com/youruser/GatorAVLTree)
-- **Minesweeper** — recursion-based puzzle in C++ → [Repo](https://github.com/youruser/Minesweeper)
+- **HarmonyHub** — dynamic playlist compatibility (React + Flask) → [Repo](https://github.com/cdubUF/HarmonyHub)
+- **ProfQuest** — UF CS professor finder (MERN) → [Repo](https://github.com/cdubUF/ProfQuest)
+- **GatorAVLTree** — C++ AVL tree with visualizations → [Repo](https://github.com/cdubUF/GatorAVLTree)
+- **Minesweeper** — recursion-based puzzle in C++ → [Repo](https://github.com/cdubUF/Minesweeper)
 
 ---
 
