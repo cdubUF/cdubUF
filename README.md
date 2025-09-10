@@ -1,8 +1,8 @@
 # Christopher Williams 👋
 
-**CS @ University of Florida | SWE intern | MERN / Python / C++**
+**CS @ University of Florida**
 
-I like building fast, clean software and documenting the journey. Current focus: backend engineering, algorithms, and pragmatic UI.
+I like building fast, clean software and documenting the journey.
 
 ---
 
