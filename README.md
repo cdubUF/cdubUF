@@ -13,7 +13,7 @@ Outside of school, I’ve interned at **Oracle** where I worked on real-world de
 
 ## 📄 Resume
 You can view or download my latest resume here:  
-👉 [**Download Resume (PDF)**](docs/Christopher_Williams_Resume.pdf)
+👉 [**Download Resume (PDF)**](docs/Christopher_Williams_2026.pdf)
 
 ---
 
