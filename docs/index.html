@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Christopher Williams — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Christopher Williams</h1>
+    <p>CS @ UF • SWE</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="Christopher_Williams_Resume.pdf" download>Resume</a>
+      <a href="mailto:your.email@ufl.edu">Contact</a>
+      <a href="https://github.com/cdubUF">GitHub</a>
+      <a href="https://www.linkedin.com/in/your-handle">LinkedIn</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>I build clean backends and practical UIs. Interested in data structures, developer tooling, and shipping student-focused tools.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+
+      <article>
+        <h3><a href="https://github.com/cdubUF/HarmonyHub">HarmonyHub</a></h3>
+        <p>Dynamic playlist compatibility (React + Flask). Includes similarity scoring and minimal UI.</p>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/cdubUF/ProfQuest">ProfQuest</a></h3>
+        <p>MERN app to explore UF CS professors. Scraping + pagination + mobile-friendly frontend.</p>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/cdubUF/GatorAVLTree">Gator AVL Tree</a></h3>
+        <p>C++ AVL tree with visualization. Focus on rotations, height balance, and tests.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="yr"></span> Christopher Williams</small>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
