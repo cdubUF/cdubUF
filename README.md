@@ -39,8 +39,7 @@ You can view or download my latest resume here:
 
 ## 🌍 Connect With Me
 - 📧 Email: christopwilliam1@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/your-handle)  
-- 💻 [GitHub](https://github.com/cdubUF)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/christopwilliam)  
 
 ---
 
