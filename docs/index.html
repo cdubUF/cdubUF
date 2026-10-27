@@ -1,54 +1,73 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Christopher Williams — Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Christopher Williams — University of Florida computer science student and software engineer. Explore my projects, experience, and technical skills.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Christopher Williams | Software Engineer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Christopher Williams</h1>
-    <p>CS @ UF • SWE</p>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="Christopher_Williams_Resume.pdf" download>Resume</a>
-      <a href="mailto:your.email@ufl.edu">Contact</a>
-      <a href="https://github.com/cdubUF">GitHub</a>
-      <a href="https://www.linkedin.com/in/your-handle">LinkedIn</a>
-    </nav>
-  </header>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#top">CW<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-resume" href="Christopher_Williams_2026.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a>
+      </nav>
+    </header>
 
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>I build clean backends and practical UIs. Interested in data structures, developer tooling, and shipping student-focused tools.</p>
-    </section>
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow"><span class="status-dot"></span> CS at the University of Florida · Class of 2026</div>
+        <h1 id="hero-title">Hi, I'm Christopher.<br><span>I build things that work.</span></h1>
+        <p class="hero-copy">Software engineer focused on full-stack development, reliable backend systems, and useful experiences built around real data.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="mailto:christopwilliam1@gmail.com">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>Two summers at Oracle</span><span>·</span><span>React, Python &amp; APIs</span><span>·</span><span>Gainesville, FL</span></div>
+      </section>
 
-    <section id="projects">
-      <h2>Featured Projects</h2>
+      <section id="about" class="content-section two-column">
+        <div><p class="section-kicker">01 / ABOUT</p><h2>Engineering with purpose.</h2></div>
+        <div class="about-copy">
+          <p>I'm a senior studying Computer Science at the University of Florida, graduating in December 2026. I enjoy taking ideas from concept to implementation, especially when they involve interesting technical challenges or messy data.</p>
+          <p>Across two software engineering internships at Oracle, I contributed to frontend and backend features, debugged complex services, and worked with container-based development environments.</p>
+          <div class="skill-list"><span>Python</span><span>JavaScript / TypeScript</span><span>React</span><span>FastAPI</span><span>SQL</span><span>Docker / Podman</span></div>
+        </div>
+      </section>
 
-      <article>
-        <h3><a href="https://github.com/cdubUF/HarmonyHub">HarmonyHub</a></h3>
-        <p>Dynamic playlist compatibility (React + Flask). Includes similarity scoring and minimal UI.</p>
-      </article>
+      <section id="projects" class="content-section">
+        <p class="section-kicker">02 / SELECTED WORK</p>
+        <div class="section-heading"><h2>Projects<span class="accent">.</span></h2><p>A selection of applications and systems I've worked on.</p></div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-top"><span class="project-index">FEATURED · SENIOR DESIGN</span><span class="project-icon" aria-hidden="true">↗</span></div>
+            <h3><a href="https://github.com/Poiixen/senior_design" target="_blank" rel="noopener noreferrer">Data Quality Analysis Platform</a></h3>
+            <p>A full-stack application that analyzes uploaded CSV datasets for missing values, duplicates, and statistical outliers. Explore diagnostic findings, column comparisons, and persistent reports through an interactive dashboard.</p>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>Python</span><span>FastAPI</span><span>pandas</span><span>SQLite</span></div>
+            <a class="project-link" href="https://github.com/Poiixen/senior_design" target="_blank" rel="noopener noreferrer">View GitHub repository ↗</a>
+          </article>
+          <article class="project-card"><span class="project-index">01 / WEB APP</span><h3><a href="https://github.com/cdubUF/HarmonyHub" target="_blank" rel="noopener noreferrer">HarmonyHub ↗</a></h3><p>Dynamic playlist compatibility application with similarity scoring and a streamlined user interface.</p><div class="tags"><span>React</span><span>Flask</span></div></article>
+          <article class="project-card"><span class="project-index">02 / WEB APP</span><h3><a href="https://github.com/cdubUF/ProfQuest" target="_blank" rel="noopener noreferrer">ProfQuest ↗</a></h3><p>A MERN application for exploring UF computer science professors using scraped information and a responsive interface.</p><div class="tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div></article>
+          <article class="project-card"><span class="project-index">03 / DATA STRUCTURES</span><h3><a href="https://github.com/cdubUF/GatorAVLTree" target="_blank" rel="noopener noreferrer">Gator AVL Tree ↗</a></h3><p>Self-balancing AVL tree implementation with rotations, height balancing, and visualization.</p><div class="tags"><span>C++</span><span>Algorithms</span></div></article>
+          <article class="project-card"><span class="project-index">04 / GAME</span><h3><a href="https://github.com/cdubUF/Minesweeper" target="_blank" rel="noopener noreferrer">Minesweeper ↗</a></h3><p>A classic puzzle game implemented using recursion and backtracking.</p><div class="tags"><span>C++</span><span>Recursion</span></div></article>
+        </div>
+      </section>
 
-      <article>
-        <h3><a href="https://github.com/cdubUF/ProfQuest">ProfQuest</a></h3>
-        <p>MERN app to explore UF CS professors. Scraping + pagination + mobile-friendly frontend.</p>
-      </article>
+      <section id="experience" class="content-section two-column experience-section">
+        <div><p class="section-kicker">03 / EXPERIENCE</p><h2>Real-world impact.</h2></div>
+        <div class="experience-body"><div class="experience-header"><h3>Software Engineering Intern</h3><span>2025 &amp; 2026</span></div><p class="employer">Oracle · Austin, TX</p><p>Contributed to Oracle Textura Payment Manager through full-stack debugging, UI and backend development, and resolving issues across local containers, APIs, databases, and development tooling.</p></div>
+      </section>
 
-      <article>
-        <h3><a href="https://github.com/cdubUF/GatorAVLTree">Gator AVL Tree</a></h3>
-        <p>C++ AVL tree with visualization. Focus on rotations, height balance, and tests.</p>
-      </article>
-    </section>
-  </main>
-
-  <footer>
-    <small>© <span id="yr"></span> Christopher Williams</small>
-  </footer>
-
-  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+      <section class="contact-section"><p class="section-kicker">04 / CONTACT</p><h2>Have something in mind?</h2><p>I'm always interested in connecting with people building thoughtful technology.</p><a class="button primary" href="mailto:christopwilliam1@gmail.com">Say hello ↗</a></section>
+    </main>
+    <footer class="site-footer"><span>© <span id="year">2026</span> Christopher Williams</span><div><a href="https://github.com/cdubUF" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/christopwilliam" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="Christopher_Williams_2026.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a></div></footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
