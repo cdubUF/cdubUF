@@ -6,7 +6,7 @@
 
 Building practical, reliable software across frontend, backend, and data-driven applications.
 
-[**Portfolio**](https://cdubuf.github.io/cdubUF/) · [**Resume**](docs/Christopher_Williams_2026.pdf) · [**LinkedIn**](https://www.linkedin.com/in/christopwilliam) · [**Email**](mailto:christopwilliam1@gmail.com)
+[**Resume**](docs/Christopher_Williams_2026.pdf) · [**LinkedIn**](https://www.linkedin.com/in/christopwilliam) · [**Email**](mailto:christopwilliam1@gmail.com)
 
 </div>
 
