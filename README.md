@@ -30,7 +30,7 @@ A team-built, dataset-agnostic data quality platform. Users can upload CSV data 
 - **[Gator AVL Tree](https://github.com/cdubUF/GatorAVLTree)** — C++ AVL tree with balancing, rotations, and visualization.
 - **[Minesweeper](https://github.com/cdubUF/Minesweeper)** — Classic puzzle implemented with recursion and backtracking in C++.
 
-## Technical Toolkit
+## Skills
 
 **Languages:** Python, JavaScript, TypeScript, SQL, C++  
 **Frontend & backend:** React, Node.js, Express, Flask, FastAPI, HTML/CSS, SQLAlchemy  
